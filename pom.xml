@@ -8,6 +8,7 @@
   <packaging>maven-archetype</packaging>
 
   <name>BukkitPlugin-archetype</name>
+  <description>This is a archetype for a sample plugin for CraftBukkit</description>
 
   <build>
     <extensions>
@@ -27,6 +28,5 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  <description>This is a archetype for a sample plugin for CraftBukkit</description>
+  
 </project>
