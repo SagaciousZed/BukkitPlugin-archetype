@@ -4,10 +4,10 @@
 # This is a sample plugin.yml
 # For more infomration refer to http://wiki.bukkit.org/Plugin_YAML
 main: ${package}.${artifactId}
-name: ${artifactId}
+name: ${project.name}
 version: ${project.version}
 author: SampleAuthor
-description: This is a sample plugin
+description: ${project.description}
 commands:
   sample:
     description: set the sample message
