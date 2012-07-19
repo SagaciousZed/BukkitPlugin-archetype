@@ -38,8 +38,8 @@ DO NOT USE A *.me domain if you do not own it.
 Where `-DartifactId` specifies the name of the project, this should be a
 valid Java class name.
 
-Where `-Dpackage` specifies the package for all the code, geneally this is
-the groupId.artifactId in all lowercase.
+Where `-Dpackage` specifies the package for all the code, generally this is
+the groupId.artifactId in all lower case.
 
 Where `-Dversion` specifies the version, this should follow maven version
 numbering convention. `[major].[minor].[revision]` the additional -SNAPSHOT
