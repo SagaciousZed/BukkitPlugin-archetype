@@ -14,6 +14,9 @@ public class ${artifactId} extends JavaPlugin {
      */
     @Override
     public void onEnable() {
+        // save the configuration file
+        saveDefaultConfig();
+        
         // Create the SampleListener
         new ${artifactId}Listener(this);
         
@@ -25,10 +28,8 @@ public class ${artifactId} extends JavaPlugin {
      * This is called when your plug-in shuts down
      */
     @Override
-    public void onDisable() {        
-        // save the configuration file, if there are no values, write the defaults.
-        this.getConfig().options().copyDefaults(true);
-        this.saveConfig();
+    public void onDisable() {
+        
     }
 
 }
