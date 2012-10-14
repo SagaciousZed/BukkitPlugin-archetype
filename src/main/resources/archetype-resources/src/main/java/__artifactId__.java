@@ -8,7 +8,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 /*
  * This is the main class of the sample plug-in
  */
-public class ${artifactId} extends JavaPlugin {
+public final class ${artifactId} extends JavaPlugin {
     /*
      * This is called when your plug-in is enabled
      */
