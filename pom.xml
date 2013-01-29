@@ -7,7 +7,7 @@
 
   <groupId>com.sagaciouszed.bukkit</groupId>
   <artifactId>BukkitPlugin-archetype</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>BukkitPlugin-archetype</name>
@@ -42,6 +42,7 @@
   </build>
 
   <distributionManagement>
+    <downloadUrl>http://sagaciouszed.github.com/repo/</downloadUrl>
     <repository>
       <id>stage-repo</id>
       <url>file://${basedir}/../repo/releases</url>
