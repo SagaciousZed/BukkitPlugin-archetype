@@ -16,7 +16,7 @@ This project uses maven to automate the build process.
 Usage
 ----------------------
 
-Once installed, Maven can generate projects from this archetype. 
+Once installed, Maven can generate projects from this archetype in an empty directory. 
 
 The standard way to generate projects is `mvn archetype:generate`, manually
 searching for the archetype is less than ideal.
