@@ -6,7 +6,7 @@
 main: ${package}.${artifactId}
 name: ${project.name}
 version: ${project.version}
-author: SampleAuthor
+author: ${user.name}
 description: ${project.description}
 commands:
   sample:
