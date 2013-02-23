@@ -23,7 +23,7 @@ searching for the archetype is less than ideal.
 
 You can specify directly the archetype you want to use.
 
-    mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.5-SNAPSHOT
+    mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.5
 
 It will still prompt you for additional important project information.
 
@@ -50,4 +50,4 @@ After maven generates the project it is ready to be imported into your IDE of ch
 Below is the complete call used to generate the BukkitSamplePlugin, which original source code
 can be found at https://github.com/SagaciousZed/SampleBukkitPlugin
 
-      mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.5-SNAPSHOT -DgroupId=com.example.groupid -DartifactId=SampleBukkitPlugin -Dpackage=com.example.groupid.samplebukkitplugin -Dversion=0.0.1-SNAPSHOT
+      mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.5 -DgroupId=com.example.groupid -DartifactId=SampleBukkitPlugin -Dpackage=com.example.groupid.samplebukkitplugin -Dversion=0.0.1-SNAPSHOT

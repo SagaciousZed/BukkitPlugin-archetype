@@ -5,7 +5,7 @@
 
   <groupId>com.sagaciouszed.bukkit</groupId>
   <artifactId>BukkitPlugin-archetype</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.5</version>
   <packaging>maven-archetype</packaging>
 
   <name>BukkitPlugin-archetype</name>
