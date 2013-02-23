@@ -16,14 +16,14 @@ This project uses maven to automate the build process.
 Usage
 ----------------------
 
-Once installed, Maven can generate projects from this archetype in an empty directory. 
+Once installed, Maven can generate projects from this archetype in an empty directory.
 
 The standard way to generate projects is `mvn archetype:generate`, manually
 searching for the archetype is less than ideal.
 
 You can specify directly the archetype you want to use.
 
-    mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.4-SNAPSHOT
+    mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.5-SNAPSHOT
 
 It will still prompt you for additional important project information.
 
@@ -31,8 +31,8 @@ You can skip the prompt by supplying additional parameters appended to the call 
 
     -DgroupId=com.example.groupid -DartifactId=SampleBukkkitPlugin -Dpackage=com.example.groupid.samplebukkitplugin -Dversion=0.0.1-SNAPSHOT
 
-Where `-DgroupId` specifies reverse domain name, if you don't have a domain 
-name, use an email address. This is to uniquely name all your classes. 
+Where `-DgroupId` specifies reverse domain name, if you don't have a domain
+name, use an email address. This is to uniquely name all your classes.
 DO NOT USE A *.me domain if you do not own it.
 
 Where `-DartifactId` specifies the name of the project, this should be a
@@ -50,4 +50,4 @@ After maven generates the project it is ready to be imported into your IDE of ch
 Below is the complete call used to generate the BukkitSamplePlugin, which original source code
 can be found at https://github.com/SagaciousZed/SampleBukkitPlugin
 
-      mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.4-SNAPSHOT -DgroupId=com.example.groupid -DartifactId=SampleBukkitPlugin -Dpackage=com.example.groupid.samplebukkitplugin -Dversion=0.0.1-SNAPSHOT
+      mvn archetype:generate -DarchetypeGroupId=com.sagaciouszed.bukkit -DarchetypeArtifactId=BukkitPlugin-archetype -DarchetypeVersion=0.0.5-SNAPSHOT -DgroupId=com.example.groupid -DartifactId=SampleBukkitPlugin -Dpackage=com.example.groupid.samplebukkitplugin -Dversion=0.0.1-SNAPSHOT
